@@ -6,15 +6,15 @@ violent_crime = df["ViolentCrimesPerPop"]
 
 mean_value = violent_crime.mean()
 median_value = violent_crime.median()
-std_value = violent_crime.std()
-min_value = violent_crime.min()
-max_value = violent_crime.max()
+standard_diviation_value = violent_crime.std()
+minimum_value = violent_crime.min()
+maximum_value = violent_crime.max()
 
 print("Mean:", mean_value)
 print("Median:", median_value)
-print("Standard Deviation:", std_value)
-print("Minimum value:", min_value)
-print("Maximum value:", max_value)
+print("Standard Deviation:", standard_diviation_value)
+print("Minimum value:", minimum_value)
+print("Maximum value:", maximum_value)
 
 
 # QUESTION 1
